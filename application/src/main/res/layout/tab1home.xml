@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:scrollbars="vertical"
+    tools:context="org.gallopnyc.com.gallopnyc.HomeActivity">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/homeimage"
+        android:layout_width="384dp"
+        android:layout_height="181dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/gallop_logo_new" />
+
+        <TextView
+            android:id="@+id/abtText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="192dp"
+            android:fontFamily="@font/buenard"
+            android:text="About Us:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/abtDescText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/buenard"
+            android:text="GallopNYC offers therapeutic horsemanship programs to children and adults with disabilities and special needs, including Veterans and at risk youth. We serve 500 riders a week and operate our riding program at six locations. Schedules at each location vary seasonally. This fall (2016) we open our own dedicated site at Gemini Stables!"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/abtText" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/buenard"
+            android:text="Our Mission:"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/abtDescText" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/buenard"
+            android:text="We use therapeutic horsemanship to help riders In NYC with disabilities walk, talk and learn,inspiring them to live their lives as fully, independently and productively as possible."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/buenard"
+            android:text="Our Vision:"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="360dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/buenard"
+            android:text="That every child with a disability in New York City has access to therapeutic horseback riding."
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <!-- <TextView
+         android:id="@+id/section_label"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="@dimen/activity_vertical_margin"
+         android:layout_marginEnd="@dimen/activity_horizontal_margin"
+         android:layout_marginStart="@dimen/activity_horizontal_margin"
+         android:layout_marginTop="@dimen/activity_vertical_margin"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+         tools:layout_constraintLeft_creator="1"
+         tools:layout_constraintTop_creator="1" />     -->
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
