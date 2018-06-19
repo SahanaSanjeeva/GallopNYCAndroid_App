@@ -1,4 +1,4 @@
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/constraintLayout"
@@ -6,18 +6,187 @@
     android:layout_height="match_parent"
     tools:context="org.gallopnyc.com.gallopnyc.DonateActivity">
 
-   <!-- <TextView
-        android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tab3 Donate text"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginEnd="@dimen/activity_horizontal_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintTop_creator="1" />-->
+   <android.support.constraint.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:paddingBottom="60dp">
 
-</android.support.constraint.ConstraintLayout>
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="match_parent"
+          android:layout_height="181dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/donate_page"
+          tools:layout_marginLeft="0dp"
+          tools:layout_marginRight="0dp" />
+
+      <TextView
+          android:id="@+id/textView11"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:fontFamily="@font/buenard"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:text="@string/donatetxt1"
+          android:textColor="@android:color/black"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+      <EditText
+          android:id="@+id/donateAmount"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_marginLeft="15dp"
+          android:ems="10"
+          android:fontFamily="@font/buenard"
+          android:hint="@string/donatetxt2"
+          android:inputType="numberDecimal"
+          android:textColor="@android:color/black"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+      <Button
+          android:id="@+id/donateBtnTop"
+          android:layout_width="83dp"
+          android:layout_height="43dp"
+          android:layout_marginTop="8dp"
+          android:background="@drawable/donate_button"
+          app:layout_constraintStart_toEndOf="@+id/donateAmount"
+          app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+      <TextView
+          android:id="@+id/textView"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="12dp"
+          android:fontFamily="@font/buenard"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:text="@string/donatetxt3"
+          android:textColor="@android:color/darker_gray"
+          android:textSize="14sp"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/donateAmount" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:fontFamily="@font/buenard"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:text="@string/donatetxt4"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+      <TextView
+          android:id="@+id/textView7"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="12dp"
+          android:fontFamily="@font/buenard"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:text="@string/donatetxt5"
+          android:textColor="@android:color/black"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="115dp"
+          android:layout_height="82dp"
+          android:layout_marginLeft="132dp"
+          android:src="@drawable/guidestar_logo"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+      <TextView
+          android:id="@+id/textView8"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:fontFamily="@font/buenard"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:text="@string/donatetxt6"
+          android:textColor="@android:color/black"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+      <TextView
+          android:id="@+id/textView9"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:fontFamily="@font/buenard"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp"
+          android:text="@string/donatetxt7"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+      <EditText
+          android:id="@+id/donateAmountBtm"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="15dp"
+          android:layout_marginTop="4dp"
+          android:ems="10"
+          android:fontFamily="@font/buenard"
+          android:hint="@string/donatetxt8"
+          android:inputType="numberDecimal"
+          android:textColor="@android:color/black"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+      <Button
+          android:id="@+id/donateBtnBtm"
+          android:layout_width="83dp"
+          android:layout_height="43dp"
+          android:layout_marginLeft="16dp"
+          android:layout_marginTop="8dp"
+          android:background="@drawable/donate_button"
+          app:layout_constraintStart_toEndOf="@+id/donateAmountBtm"
+          app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+      <TextView
+          android:id="@+id/textView36"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="40dp"
+          android:paddingLeft="20dp"
+          android:paddingRight="20dp"
+          android:text="@string/donateimgtxt1"
+          android:textAlignment="center"
+          android:textColor="@android:color/holo_orange_dark"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+      <TextView
+          android:id="@+id/textView37"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:text="@string/donateimgtxt2"
+          android:textAlignment="center"
+          android:textColor="@android:color/holo_orange_dark"
+          android:textSize="15sp"
+          android:textStyle="bold"
+          app:layout_constraintStart_toStartOf="@+id/imageView2"
+          app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+   </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

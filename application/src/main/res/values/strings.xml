@@ -1,8 +1,81 @@
 <resources>
     <string name="app_name">GallopNYC</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
+    <string name="tab1">HOME</string>
+    <string name="tab2">VOLUNTEER</string>
+    <string name="tab3">DONATE</string>
+    <string name="tab4">PROGRAMS</string>
+    <string name="tab5">SCHEDULE</string>
+    <string name="tab6">CONTACT</string>
     <string name="action_settings">Settings</string>
+    <string name="homeimgtxt1">We have the horsepower to change the lives of people with disabilities</string>
+    <string name="homeimgtxt2">Welcome To GallopNYC</string>
+    <string name="hometxt1">About Us:</string>
+    <string name="hometxt2">GallopNYC offers therapeutic horsemanship programs to children and adults with disabilities and special needs, including Veterans and at risk youth. We serve 500 riders a week and operate our riding program at six locations. Schedules at each location vary seasonally. This fall (2016) we open our own dedicated site at Gemini Stables!</string>
+    <string name="hometxt3">Our Mission:</string>
+    <string name="hometxt4">We use therapeutic horsemanship to help riders In NYC with disabilities walk, talk and learn,inspiring them to live their lives as fully, independently and productively as possible.</string>
+    <string name="hometxt5">Our Vision:</string>
+    <string name="hometxt6">That every child with a disability in New York City has access to therapeutic horseback riding.</string>
+    <string name="volunteerimgtxt">Join our fun team of GallopNYC Volunteers!</string>
+    <string name="volunteertxt1">Volunteering With GallopNYC Is Rewarding, Exciting, And Fun</string>
+    <string name="volunteertxt2">Volunteers enjoy the personal satisfaction of helping children and adults with developmental, emotional, social, and physical challenges, all while working with and being around horses, one of nature’s most empathetic animals.  \n\nWe ask volunteers to commit to two hours of service a week. Email us at volunteer@gallopnyc.org \nCall us on 646.233.4507.</string>
+    <string name="volunteertxt3">Ready to start? Sign up!</string>
+    <string name="volunteertxt4">After you sign up, you’ll be offered a brief online orientation. After completing the orientation, you’ll be able to sign up for your first volunteer opportunity. On your first day, you’ll be asked to arrive a half hour early for onsite training from the instructor. \n\nThat’s it! Hope you’ll join us!</string>
+    <string name="volunteertxt5">Sign Up Here</string>
+    <string name="volunteertxt6">Already Signed Up? </string>
+    <string name="volunteertxt7">Find an Oppurtunity here!</string>
+    <string name="donateimgtxt1">Donate to support our Riders</string>
+    <string name="donateimgtxt2">We have the HORSEPOWER - Will you bring the people power?</string>
+    <string name="donatetxt1">Your Gift Can Change The Life Of A Child With A Disability!</string>
+    <string name="donatetxt2">Enter donation amount</string>
+    <string name="donatetxt3">Why help our riders? \n\nGallopNYC focuses its services primarily on low-income children and adults with disabilities, at a time when the level of need in the New York metropolitan area is high and steadily growing. Your donations help cover the costs of needy riders.  \n\nEvery gift goes directly to provide lessons to children who never have the opportunity to ride without your help.</string>
+    <string name="donatetxt4">Your donations help our RIDERS</string>
+    <string name="donatetxt5">• By the end of 2016, GallopNYC had served over 1500 riders, but we have a waiting list of OVER 900 RIDERS \n• A recent report found that the NYC Dep’t of Education is not providing needed services to as many as 40% of kids See Report Here \n• We are cost effective with low administrative costs. \n• All individual donations go to defray the costs of riders’ lessons \n• GallopNYC is BBB approved and Guidestar Platinum</string>
+    <string name="donatetxt6">GallopNYC is a BBB Accredited Charity</string>
+    <string name="donatetxt7">Donate To GallopNYC</string>
+    <string name="donatetxt8">Enter donation amount</string>
+    <string name="programimgtxt">GallopNYC programs builds bonds between people and horses</string>
+    <string name="programtxt1">Did you know?</string>
+    <string name="programtxt2">A full 86% of parents surveyed agreed that GallopNYC helped their children engage more fully in life.</string>
+    <string name="programtxt3">THERAPEUTIC RIDING</string>
+    <string name="programtxt4">GallopNYC brings the proven benefits of therapeutic horsemanship to provide measurable benefits for people with developmental, emotional, social, and physical challenges.\n\nThrough weekly riding sessions with PATH-certified instructors, we help riders learn new skills, inspiring each one to live life as fully, productively and independently as possible.\n\nGallopNYC serves hundreds of riders every week at six NYC locations. GallopNYC is committed to serving low-income families, since they are more likely to lack access to adequate services.</string>
+    <string name="programtxt5">HIPPOTHERAPY</string>
+    <string name="programtxt6">In Hippotherapy, a licensed physical therapist works with each child while the child is riding. The therapist is trained in using a horse as a physical therapy tool. The therapists work independently with GallopNYC’s assistance.</string>
+    <string name="programtxt7">COMMUNITY RIDING PROGRAM</string>
+    <string name="programtxt8">GallopNYC offers recreational riding at our Gemini Fields and Lynne’s Riding School locations. Lessons are open to all, including people with and without disabilities.</string>
+    <string name="programtxt9">MS Program</string>
+    <string name="programtxt10">GallopNYC is honored to receive a Christopher and Dana Reeve Quality of Life grant to support our therapeutic riding program for people with multiple sclerosis,  in partnership with the National Multiple Sclerosis Society’s New York City – Southern New York chapter.\n\nOur evaluations show measurable benefits to our riders – improving balance, coordination and muscle tone, as well as building self-confidence.</string>
+    <string name="programtxt11">VETERANS</string>
+    <string name="programtxt12">A leadership program for war veterans with visible and/or invisible injuries, designed to build competence, confidence and leadership.</string>
+    <string name="contactimgtxt">Get in touch with us</string>
+    <string name="contacttxt1">Contact Info:</string>
+    <string name="contacttxt2">GallopNYC\nGiving Alternative Learners UpLifting Opportunities, Inc.\n540 President Street, 3rd Floor\nBrooklyn, NY 11215\n\nFor Riders: info@gallopnyc.org\nFor Volunteers: volunteer@gallopnyc.org\n\nPhone: 646-233-4507 (leave message)</string>
+    <string name="contacttxt3">Locations</string>
+    <string name="contacttxt4">GallopNYC offers lessons at six NYC locations, four in NYC Parks.</string>
+
+    <string-array name="gridaddress">
+        <item>GallopNYC (Sunrise Stables, Lindenwood)\n80\-98 Linden Blvd.\nHoward Beach,\nQueens NY 11414</item>
+        <item>GallopNYC(Forest Hills)\n8803 70th Road\nForest Hills,\nNY 11375\n(718) 261\-7679</item>
+        <item>GallopNYC (Prospect Park,Brooklyn)\nBowling Green,\nKermit Place and\nConey Island Ave\nBrooklyn NY</item>
+        <item>GallopNYC (Jamaica Bay, Brooklyn)\nJamaica Bay Riding Academy\n7000 Shore Parkway\nBrooklyn, NY 11234\n(718) 531\-8949</item>
+        <item>GallopNYC (Pelham Bay Park, The Bronx)\nBronx Equestrian Center\n9 Shore Rd. The Bronx,\nNY 10464\-1007\n(718) 855\-0551</item>
+        <item>GallopNYC (Van Cortland Park, The Bronx)\nRiverdale Stables\n6394 Broadway\nThe Bronx, NY 10471\n(718) 548\-4848</item>
+    </string-array>
+   <!-- <string-array name="loclatdoub">
+        <item>40.671080</item>
+        <item>40.708190</item>
+        <item>40.648688</item>
+        <item>40.607533</item>
+        <item>40.866065</item>
+        <item>40.902394</item>
+    </string-array>
+    <string-array name="loclongdoub">
+        <item>-73.851160</item>
+        <item>-73.853800</item>
+        <item>-73.971310</item>
+        <item>-73.897240</item>
+        <item>-73.813946</item>
+        <item>-73.894286</item>
+    </string-array>-->
+
     <string name="section_format">Hello World from section: %1$d</string>
 </resources>

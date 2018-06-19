@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gridaddress21">
+        <item>GallopNYC (Sunrise Stables, Lindenwood)\n80\-98 Linden Blvd.\nHoward Beach,\nQueens NY 11414</item>
+        <item>GallopNYC(Forest Hills)\n8803 70th Road\nForest Hills,\nNY 11375\n(718) 261\-7679</item>
+        <item>GallopNYC (Prospect Park,Brooklyn)\nBowling Green,\nKermit Place and\nConey Island Ave\nBrooklyn NY</item>
+        <item>GallopNYC (Jamaica Bay, Brooklyn)\nJamaica Bay Riding Academy\n7000 Shore Parkway\nBrooklyn, NY 11234\n(718) 531\-8949</item>
+        <item>GallopNYC (Pelham Bay Park, The Bronx)\nBronx Equestrian Center\n9 Shore Rd. The Bronx,\nNY 10464\-1007\n(718) 855\-0551</item>
+        <item>GallopNYC (Van Cortland Park, The Bronx)\nRiverdale Stables\n6394 Broadway\nThe Bronx, NY 10471\n(718) 548\-4848</item>
+    </string-array>
+</resources>
